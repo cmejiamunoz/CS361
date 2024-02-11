@@ -38,7 +38,7 @@ def ski_data_request(state):
     return ski_info
 def tcp_server_two():
     """
-    Functions creates a TPC/IP socket
+    Functions creates a TPC/IP socket and listens for communicaiton on port 256
     """
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 

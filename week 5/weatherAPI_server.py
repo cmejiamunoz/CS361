@@ -15,7 +15,7 @@ async def weather_data(city):
 
 def tcp_server():
     """
-    Functions creates a TPC/IP socket
+    Functions creates a TPC/IP socket and listens for communications on port 255
     """
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 

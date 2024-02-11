@@ -188,7 +188,7 @@ def weather_info():
     return selection
 
 def ski_info():
-    """ provides ski information on resort provided """
+    """ provides ski information on resort provided. """
 
     location = input("Please provide the state: ")
     resort = input("Please provide the ski destination: ")
