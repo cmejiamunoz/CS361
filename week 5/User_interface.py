@@ -114,6 +114,8 @@ def retrieve_saved_trips()->str:
     print("\nHow would you like to proceed\n"
               "1) Return to main menu\n"
               "2) Retrieved a different entry\n")
+
+
     selection = input("Input selection: ")
     return selection
 
@@ -260,4 +262,7 @@ if __name__ == "__main__":
         elif main_menu == "6":
             print ('Thank you for using this application. Have a great day !')
             main_menu = "00"
+        else:
+            print("invalid input, please select an option from the main menu")
+            main_menu= "0"
 
