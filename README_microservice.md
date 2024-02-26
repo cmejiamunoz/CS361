@@ -8,9 +8,9 @@ The date microservice monitors the contents of file "date_trigger.txt". If keywo
 
   Example code for reading program output:
 
-   with open("date_data.txt", "r") as date_data:
-        for entry in date_data:
-            print(entry)
+       with open("date_data.txt", "r") as date_data:
+            for entry in date_data:
+                print(entry)
 
   Additionally, one can write keyword "exit" to date_trigger.txt to terminate the microservice programatically.
   
